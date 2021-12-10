@@ -13,6 +13,7 @@ The first technique I tried was to create a deep learning model with keras. Unfo
 
 # Results
 
+```
               precision    recall  f1-score   support
 
            0       0.60      0.73      0.66        78
@@ -20,7 +21,7 @@ The first technique I tried was to create a deep learning model with keras. Unfo
     accuracy                           0.64       163
    macro avg       0.65      0.64      0.64       163
 weighted avg       0.65      0.64      0.64       163
-
+```
 
 The most important conclusion we can draw from our analysis is that the location of the crash plays the largest role in whether an accident will be fatal or not. This is striking because location is more imprtant even than whether or not the driver was impaired.
 
